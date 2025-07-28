@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    transition: all 0.5s ease-in-out;
+}
+
+@font-face {
+  font-family: 'GentyDemo-Regular'; /* This is the name you'll use in your CSS */
+  src: url('GentyDemo-Regular.ttf'); /* This points to the location of your font file */
+}
+
+a{
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    height: 60px;
+    /* background-color: brown; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logos a .uatLogo{
+    height: 60px;
+}
+
+.time_edLogo{
+    margin-left: auto;
+    height: 60px;
+}
+
+.main{
+    background-image: url(Images/workspace-with-colorful-notebooks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .welcome{
+    
+} */
+
+.welcome h1{
+    text-align: center;
+    color: #da524d;
+    font-family: tahoma;
+    font-size: 50px;
+}
+
+.welcome p{
+    color: green;
+    font-family: tahoma;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #ff6f3c;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+}
+
+button:hover{
+    background-color: rgb(0, 115, 10);
+    font-size: larger;
+}
+
+.faculties{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faculties h1{
+    color: #da524d;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.faculties .container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faculties .container div{
+    background-color: #ff6f3c;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 230px;
+}
+
+.faculties .container div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.container div h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container div p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container div h4{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container div .not-available{
+    margin-top: 50px;
+    font-style: oblique;
+}
+
+.FAE h1{
+    color: #da524d;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.FBAS h1{
+    color: #da524d;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.FSMS h1{
+    color: #da524d;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.FAE .cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    
+}
+
+.FAE .cards2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.FAE .cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 12px;
+    height: 70px;
+    width: 170px;
+}
+
+.FAE .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FAE .cards2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 12px;
+    height: 70px;
+    width: 170px;
+}
+
+.FAE .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+/* faculty of basic and applied science */
+
+.FBAS .cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+    
+}
+
+.FBAS .cards2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+}
+
+.FBAS .cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    height: 70px;
+    width: 130px;
+}
+
+.FBAS .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FBAS .cards2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    height: 70px;
+    width: 130px;
+}
+
+.FBAS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FSMS .cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 20px;
+    
+}
+
+.FSMS .cards2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 10px;
+}
+
+.FSMS .cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    height: 60px;
+    font-size: 11px;
+    width: 150px;
+}
+
+.FSMS .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FSMS .cards2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ff6f3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    height: 70px;
+    width: 150px;
+}
+
+.FSMS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.about h1{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.about .UAT h2{
+    color: green;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.about .UAT p{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about .TimeEd h2,span{
+    font-family: 'GentyDemo-Regular';
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.about .TimeEd h2 span{
+    color: blue;
+}
+
+.about .TimeEd p{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width:900px) {
+
+.logos {
+    height: 40px;
+}
+
+.logos a .uatLogo{
+    height: 40px;
+}
+
+.time_edLogo{
+    height: 40px;
+}
+
+.welcome h1{
+    font-size: 30px;
+}
+
+.welcome p{
+    font-size: 11px;
+}
+
+button{
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+     font-size: 15.5px;
+}
+
+.faculties h1{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.faculties .container div{
+    border-radius: 20px;
+    padding: 17px;
+    height: 200px;
+}
+
+.faculties .container div:hover{
+    background-color: green;
+    padding: 17.5px;
+}
+
+.container div h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container div p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.container div h4{
+    font-size: 13px;
+}
+
+.container div .not-available{
+   font-size: 12px;
+}
+
+.FAE h1{
+    font-size: 20px;
+}
+
+.FBAS h1{
+    font-size: 18px;
+}
+
+.FSMS h1{
+    font-size: 18px;
+}
+
+.FAE .cards div{
+    padding: 18px;
+    font-size: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.FAE .cards div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FAE .cards2 div{
+    padding: 18px;
+    font-size: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.FAE .cards2 div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FBAS .cards div{
+    padding: 18px;
+    font-size: 8px;
+    height: 50px;
+    width: 100px;
+}
+
+.FBAS .cards div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FBAS .cards2 div{
+    padding: 18px;
+    font-size: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.FBAS .cards2 div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FSMS .cards div{
+    padding: 18px;
+    height: 50px;
+    font-size: 8px;
+    width: 100px;
+}
+
+.FSMS .cards div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FSMS .cards2 div{
+    padding: 18px;
+    font-size: 8px;
+    height: 50px;
+    width: 100px;
+}
+
+.FSMS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.about h1{
+    font-size: 30px;
+}
+
+.about .UAT h2{
+    font-size: 20px;
+}
+
+.about .UAT p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.about .TimeEd p{
+    text-align: left;
+    font-size: 13px;
+}
+}
+
+@media (max-width:700px) {
+.logos {
+    height: 40px;
+}
+
+.logos a .uatLogo{
+    height: 30px;
+}
+
+.time_edLogo{
+    height: 30px;
+}
+
+.welcome h1{
+    font-size: 25px;
+}
+
+.welcome p{
+    font-size: 7px;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+button:hover{
+     font-size: 10.5px;
+}
+
+.faculties h1{
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.faculties .container div{
+    border-radius: 20px;
+    padding: 15px;
+    height: 150px;
+}
+
+.faculties .container div:hover{
+    background-color: green;
+    padding: 15.5px;
+}
+
+.container div h3{
+    text-align: center;
+    font-size: 15px;
+}
+
+.container div p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container div h4{
+    font-size: 10px;
+}
+
+.container div .not-available{
+   font-size: 8px;
+}
+
+.FAE h1{
+    font-size: 15px;
+}
+
+.FBAS h1{
+    font-size: 14px;
+}
+
+.FSMS h1{
+    font-size: 14px;
+}
+
+.FAE .cards{
+    gap: 30px;
+    
+}
+
+.FAE .cards2{
+    gap: 30px;
+}
+
+.FAE .cards div{
+    padding: 15px;
+    font-size: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+.FAE .cards div:hover{
+    background-color: green;
+    padding: 15.5px;
+}
+
+.FAE .cards2 div{
+    padding: 15px;
+    font-size: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+.FAE .cards2 div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FBAS .cards{
+    gap: 30px;
+    
+}
+
+.FBAS .cards2{
+    gap: 30px;
+}
+
+.FBAS .cards div{
+    padding: 15px;
+    font-size: 8px;
+    height: 50px;
+    width: 90px;
+}
+
+.FBAS .cards div:hover{
+    background-color: green;
+    padding: 15.5px;
+}
+
+.FBAS .cards2 div{
+    padding: 15px;
+    font-size: 10px;
+    height: 50px;
+    width: 90px;
+}
+
+.FBAS .cards2 div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FSMS .cards{
+    gap: 30px;
+    
+}
+
+.FSMS .cards2{
+    gap: 30px;
+}
+
+.FSMS .cards div{
+    padding: 15px;
+    height: 50px;
+    font-size: 8px;
+    width: 90px;
+}
+
+.FSMS .cards div:hover{
+    background-color: green;
+    padding: 18.5px;
+}
+
+.FSMS .cards2 div{
+    padding: 15px;
+    font-size: 8px;
+    height: 50px;
+    width: 90px;
+}
+
+.FSMS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.about h1{
+    font-size: 30px;
+}
+
+.about .UAT h2{
+    font-size: 20px;
+}
+
+.about .UAT p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.about .TimeEd p{
+    text-align: left;
+    font-size: 13px;
+}
+}
+
+@media (max-width:500px) {
+
+.logos {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}  
+
+.logos a .uatLogo{
+    height: 40px;
+}
+
+.time_edLogo{
+    margin-left: auto;
+    height: 40px;
+}
+
+.main{
+    height: 90vh;
+}
+
+.welcome h1{
+    font-size: 32px;
+}
+
+.welcome p{
+    font-size: 12px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ff6f3c;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    font-size: smaller;
+}
+
+button:hover{
+    background-color: rgb(0, 115, 10);
+    font-size: small;
+}
+
+.faculties{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faculties h1{
+    color: green;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.faculties .container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.faculties .container div{
+    background-color: #ff6f3c;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 250px;
+}
+
+.faculties .container div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.container div h3{
+    text-align: center;
+    font-size: 23px;
+}
+
+.container div p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container div h4{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container div .not-available{
+    margin-top: 20px;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.FAE h1{
+    color: green;
+    font-size: 20px;
+}
+
+.FBAS h1{
+    color: green;
+    font-size: 20px;
+}
+
+.FSMS h1{
+    color: green;
+    font-size: 18px;
+}
+
+
+.FAE .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+    
+}
+
+.FAE .cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.FAE .cards div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FAE .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FAE .cards2 div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FAE .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FBAS .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+    
+}
+
+.FBAS .cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.FBAS .cards div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FBAS .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FBAS .cards2 div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FBAS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FSMS .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+    
+}
+
+.FSMS .cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.FSMS .cards div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FSMS .cards div:hover{
+    background-color: green;
+    padding: 21px;
+}
+
+.FSMS .cards2 div{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+.FSMS .cards2 div:hover{
+    background-color: green;
+    padding: 21px;
+}
+}
