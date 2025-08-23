@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    transition: all 0.5s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+
+.logos a .uatLogo{
+    height: 60px;
+}
+
+.logos a .time_edLogo{
+    height: 60px;
+}
+
+h3{
+    color: #da524d;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: green;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container .table{
+    background-color: rgba(0, 0, 0, 0.256);
+    padding: 20px;
+}
+
+.table h3{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.table table{
+    border: black 2px solid;
+    text-align: center;
+}
+
+
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    color: black;
+    width: 120px;
+}
+
+.container .courses{
+    /* margin-left: auto; */
+    padding: 70px;
+    padding-top: 0px;
+    /* background-color: #000; */
+}
+
+.courses h4{
+    text-align: center;
+}
+
+.courses ul{
+    margin-top: 20px;
+}
+
+@media (max-width:1050px) {
+    
+}
