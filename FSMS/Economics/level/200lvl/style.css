@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    transition: all 0.5s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+
+.logos a .uatLogo{
+    height: 60px;
+}
+
+.logos a .time_edLogo{
+    height: 60px;
+}
+
+h3{
+    color: #da524d;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: green;
+}
+
+/* .container{
+
+} */
+
+.container .tb{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.tb .card{
+    height: 350px;
+    width: 250px;
+    border: 2px solid green; /* green border */
+    border-radius: 16px;
+    background: transparent; /* transparent background */
+    color: green;
+
+    /* align-items: center; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card .days{
+    margin: 5px;
+    text-align: center;
+    color: #da524d;
+}
+
+.tb .card:hover{
+    box-shadow: 0 0 20px green, 0 0 20px green; /* green glow */
+    transform: scale(1.05); /* slightly increase size */
+    color: rgb(1, 31, 1);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 0px;
+}
+
+.div p{
+    padding-top: 13px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#Courses h3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#Courses div{
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+   
+}
+
+#Courses div p{
+    font: Courier;
+    padding: 1px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.feedback{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feedback h4{
+    margin-top: 5px;
+}
+
+.fd-btn{
+    border: #da524d solid 2px;
+    border-radius: 10px;
+    color: green;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.fd-btn:hover{
+    border: green solid 2px;
+    background-color: green;
+    color: white;
+}
+
+@media (max-width:1000px) {
+ 
+.logos a .uatLogo{
+    height: 40px;
+}
+
+.logos a .time_edLogo{
+    height: 40px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 13px;
+}
+
+.container .tb{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.tb .card{
+    height: 300px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+.tb .card:hover{
+    box-shadow: 0 0 20px green, 0 0 20px green; /* green glow */
+    transform: scale(1.02); /* slightly increase size */
+    color: rgb(1, 31, 1);
+
+}
+
+.card .days{
+    font-size: 13px;
+}
+
+.section{
+    gap: 60px;
+}
+
+.div{
+    font-size: 13px;
+}
+
+.div p{
+    padding-top: 13px;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+#Courses h3{
+    font-size: 15px;
+}
+
+#Courses div p{
+    font: Courier;
+    padding: 1px;
+    font-size: 10px;
+    text-align: center;
+}
+
+}
+
+@media (max-width:700px) {
+    
+.container .tb{
+    gap: 10px;
+}
+
+.tb .card{
+    height: 250px;
+    width: 200px;
+    font-size: 1rem;
+
+}
+
+.div{
+    font-size: 10px;
+}
+
+.div p{
+    padding-top: 13px;
+    font-size: 8px;
+}
+
+#Courses h3{
+    font-size: 13px;
+}
+
+#Courses div p{
+    font-size: 8px;
+}
+
+.feedback h3{
+    font-size: 13px;
+}
+
+.feedback h4{
+    font-size: 10px
+}
+
+.fd-btn{
+    font-size: 10px;
+}
+
+}
+
+@media (max-width:500px) {
+    
+
+.container .tb{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tb .card{
+    height: 270px;
+    width: 200px;
+    font-size: 1rem;
+
+}
+
+.div{
+    font-size: 15px;
+}
+
+.div p{
+    padding-top: 13px;
+    font-size: 10px;
+}
+
+#Courses h3{
+    font-size: 15px;
+}
+
+#Courses div p{
+    font-size: 10px;
+}
+}
+
+@media (max-width:360px) {
+    
+.logos a .uatLogo{
+    height: 25px;
+}
+
+.logos a .time_edLogo{
+    height: 25px;
+
+}
+
+h3{
+    font-size: 13px;
+}
+
+h4{
+    font-size: 10px;
+}
+
+.tb .card{
+    height: 230px;
+    width: 170px;
+    font-size: 1rem;
+
+}
+
+.div{
+    font-size: 10px;
+}
+
+.div p{
+    padding-top: 13px;
+    font-size: 7px;
+}
+
+#Courses h3{
+    font-size: 12px;
+}
+
+#Courses div p{
+    font-size: 7px;
+}
+
+.feedback h3{
+    font-size: 10px;
+}
+
+.feedback h4{
+    font-size: 8px
+}
+
+.fd-btn{
+    font-size: 8px;
+}
+}
+
+@media (max-width:200px) {
+    
+
+.logos a .uatLogo{
+    height: 20px;
+}
+
+.logos a .time_edLogo{
+    height: 20px;
+
+}
+
+h3{
+    font-size: 10px;
+}
+
+h4{
+    font-size: 8px;
+}
+
+.tb .card{
+    height: 200px;
+    width: 150px;
+    font-size: 1rem;
+
+}
+
+.div{
+    font-size: 8px;
+}
+
+.div p{
+    padding-top: 9px;
+    font-size: 8px;
+}
+
+.card .days{
+    font-size: 10px;
+}
+
+#Courses h3{
+    font-size: 10px;
+}
+
+#Courses div{
+    margin-top: 8px;
+    gap: 8px;   
+}
+
+#Courses div p{
+    font-size: 6.5px;
+}
+
+.feedback h3{
+    font-size: 8px;
+}
+
+.feedback h4{
+    font-size: 6px
+}
+
+.fd-btn{
+    font-size: 6px;
+}
+}

@@ -88,6 +88,33 @@ p{
     font-size: 25px;
 }
 
+.feedback{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #da524d;
+}
+
+.feedback h4{
+    margin-top: 5px;
+    color: black;
+}
+
+.fd-btn{
+    border: #da524d solid 2px;
+    border-radius: 10px;
+    color: green;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.fd-btn:hover{
+    border: green solid 2px;
+    background-color: green;
+    color: white;
+}
+
+
 @media (max-width:800px) {
 .logos a .uatLogo{
     height: 50px;
@@ -146,6 +173,14 @@ h1{
     background-color: green;
     border-radius: 20px;
     padding: 21px;
+    cursor: pointer;
+}
+
+.mobile-container .container2 .lvl:hover{
+    background-color: green;
+    border-radius: 20px;
+    padding: 21px;
+    cursor: pointer;
 }
 
 .lvl h1{
@@ -198,4 +233,32 @@ h1{
 }
 
 
+}
+
+@media (max-width:390px) {
+   
+    
+.logos a .uatLogo{
+    height: 30px;
+}
+
+.logos a .time_edLogo{
+    height: 30px;
+}
+
+h1{
+    font-size: 13px;
+}
+
+.feedback h3{
+    font-size: 12px;
+}
+
+.feedback h4{
+    font-size: 10px;
+}
+
+.fd-btn{
+    font-size: 10px;
+}
 }
