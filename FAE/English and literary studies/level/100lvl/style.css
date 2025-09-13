@@ -255,7 +255,7 @@ h4{
 }
 
 .tb .card{
-    height: 270px;
+    height: 280px;
     width: 200px;
     font-size: 1rem;
 
@@ -299,14 +299,14 @@ h4{
 }
 
 .tb .card{
-    height: 230px;
-    width: 170px;
+    height: 240px;
+    width: 200px;
     font-size: 1rem;
 
 }
 
 .div{
-    font-size: 10px;
+    font-size: 17px;
 }
 
 .div p{
@@ -315,11 +315,11 @@ h4{
 }
 
 #Courses h3{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #Courses div p{
-    font-size: 7px;
+    font-size: 8px;
 }
 
 .feedback h3{
